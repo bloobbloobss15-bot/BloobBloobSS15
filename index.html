@@ -1,11 +1,112 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的 GitHub 網站</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的個人網站</title>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f8fafc;
+      color: #1e293b;
+    }
+
+    header {
+      background: linear-gradient(135deg, #3b82f6, #06b6d4);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      border-bottom: 3px solid #3b82f6;
+      padding-bottom: 5px;
+      color: #1e3a8a;
+    }
+
+    .project {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+
+    .project h3 {
+      margin-top: 0;
+      color: #2563eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e2e8f0;
+      color: #475569;
+    }
+
+    a {
+      color: #3b82f6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <h1>哈囉，這是我的第一個 GitHub Pages 網站！</h1>
+  <header>
+    <h1>王小明</h1>
+    <p>前端開發者｜熱愛設計與程式的創作者</p>
+  </header>
+
+  <section id="about">
+    <h2>關於我</h2>
+    <p>嗨！我是王小明，一名熱愛網頁開發的前端工程師。我喜歡把想法變成互動體驗，從設計到實作都親力親為。目前專注於 React、Tailwind CSS 與 GitHub Pages 的應用。</p>
+  </section>
+
+  <section id="projects">
+    <h2>作品集</h2>
+
+    <div class="project">
+      <h3>🌟 我的第一個網站</h3>
+      <p>使用 HTML + CSS 打造個人品牌頁面。</p>
+      <a href="https://你的帳號.github.io/my-website" target="_blank">查看網站</a>
+    </div>
+
+    <div class="project">
+      <h3>📱 React 專案展示</h3>
+      <p>一個使用 React 與 API 製作的即時天氣應用。</p>
+      <a href="#" target="_blank">前往作品</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>聯絡我</h2>
+    <p>📧 Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>🐙 GitHub: <a href="https://github.com/你的帳號" target="_blank">@你的帳號</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 王小明 | 建立於 GitHub Pages</p>
+  </footer>
 </body>
 </html>
